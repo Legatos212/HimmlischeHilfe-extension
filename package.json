@@ -1,0 +1,15 @@
+﻿{
+  "name": "himmlischehilfe-extension",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --mode dev --watch",
+    "build:dev": "vite build --mode dev",
+    "build:live": "vite build --mode live",
+    "build": "npm run build:dev"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
